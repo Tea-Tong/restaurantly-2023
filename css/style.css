@@ -34,3 +34,18 @@
 .about-image:hover {
     width: 105%; /* Adjust the expansion amount as needed */
 }
+
+.card {
+    background-color: #1A1814;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card:hover {
+    background-color: #CDA45E;
+}
+
+.card-number,
+.card-title,
+.card-text {
+    color: #fff; /* Text color */
+}

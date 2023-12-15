@@ -1,0 +1,36 @@
+.home {
+    /* background: yellow;  */
+    /* color: #fff; Set text color to white or a contrasting color */
+    /* padding: 100px 0; Adjust padding as needed */
+    text-align: center;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* Text color */
+    margin-top: 20px; /* Top margin */
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-image {
+    flex: 1;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.about-image:hover {
+    width: 105%; /* Adjust the expansion amount as needed */
+}

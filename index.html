@@ -1,84 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Restaurantly 2023</title>
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">   -->
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
-  <!-- Favicons -->
- 
-
-  <!-- Google Fonts -->
-  <!-- <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet"> -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
-  <!-- Vendor CSS Files -->
-  
-  <!-- Template Main CSS File -->
-
-
-</head>
+  <head>
+    <title>Restaurantly 2023</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-GLhlTQ8iNl7U6t730OEmB/oUOd9GNlDZ9v3+fl5GqLfoenfNT73t5uPExlZBauj2" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
 <body>
-  <h1>Hello, world!</h1>
-
-  <!-- ====== Top Bar ===== -->
-  <div id="topbar">
-    <div class="container">
-      <div class="contact-info align-items-center">
-        <span>+1 5589 55488 55</span>
-        <span>Mon-Sat: 11AM - 23PM</span>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="collapse navbar-collapse d-flex justify-content-center">
+        <a class="navbar-brand" href="#">RESTAURANTLY</a>
+      </div>     
+      
+      <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Specials</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Chefs</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Catering</a>
+                    <a class="dropdown-item" href="#">Private Dining</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Special Events</a>
+                </div>
+            </li>
+            
+            
+          </ul>
+          <button class="btn btn-outline-warning my-2 my-sm-0" type="button">Book A Table</button>
       </div>
-      <div class="languages align-items-center">
-        <ul>
-          <li>En</li>
-          <li><a href="#">De</a></li>
-        </ul>
+    </nav>
+  
+
+  <!-- ----------Home -------------- -->
+    <div class="home">
+      <div class="row mt-4">
+        <div class="col-md-6">
+            <div>
+                <h2>Welcome to Restaurantly</h2>
+                <p>Your favorite dining experience</p>
+            </div>
+            <div class="mt-3">
+                <button class="btn btn-outline-warning">Our Menu</button>
+                <button class="btn btn-outline-warning ml-2">Make a Reservation</button>
+            </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <button class="btn btn-warning btn-lg rounded-circle p-4">
+            <i class="fas fa-play fa-3x text-white"></i>
+          </button>
+      
+        </div>
       </div>
     </div>
+
+    <!-- --------------- About ----------------- -->
+    <div class="about-section">
+      <div class="about-text">
+        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+        <p class="fst-italic">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore
+          magna aliqua.
+        </p>
+        <ul>
+          <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+          <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+          <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+            pariatur.</li>
+        </ul>
+        <p>
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum
+        </p>
+      </div>
+      <div class="about-image">
+          <img src="img/about.jpg" alt="About Us Image">
+      </div>
+    </div>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Restaurantly</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Why Choose Our Restaurant</h2>
+
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h3 class="card-number">01</h3>
+                    <h3 class="card-title">Delicious Cuisine</h3>
+                    <p class="card-text">Experience a delightful array of flavors prepared by our talented chefs using the finest ingredients.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h3 class="card-number">02</h3>
+                    <h3 class="card-title">Cozy Atmosphere</h3>
+                    <p class="card-text">Enjoy your dining experience in a warm and inviting atmosphere designed to make you feel at home.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h3 class="card-number">03</h3>
+                    <h3 class="card-title">Exceptional Service</h3>
+                    <p class="card-text">Our dedicated staff is committed to providing top-notch service, ensuring a memorable visit every time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------ page content --------------->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+  
   </div>
 
-  <header id="header" class="fixed-top align-items-center">
-    <div class="container-fluid align-items-center">
-      <h1 class="">RESTAURANTLY</h1>
-      <nav class="navbar">
-        <ul>
-          <li><a class="nav-link" href="">Home</a></li>
-          <li><a class="nav-link" href="">About</a></li>
-          <li><a class="nav-link" href="">Menu</a></li>
-          <li><a class="nav-link" href="">Specials</a></li>
-          <li><a class="nav-link" href="">Events</a></li>
-          <li><a class="nav-link" href="">Chefs</a></li>
-          <li><a class="nav-link" href="">Gallery</a></li>
-          <li class="dropdown">
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href=""><span>Deep Drop Down</span></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>              
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link" href="">Contact</a></li>
-        </ul>
-      </nav>
-      
-      <a href="" class="book-a-table-btn">Book A Table</a>
-    </div>
-  </header>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJfcGcdJuPoiar1oBYMW+M2enVHr/DLQ" crossorigin="anonymous"></script>
 
 </body>
-
 </html>

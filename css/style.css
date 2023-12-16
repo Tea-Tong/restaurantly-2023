@@ -8,8 +8,8 @@
 .navbarNav{
     width: 100%;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     background-color: #353433;
 }
 
@@ -20,6 +20,10 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+
+/* button {
+    border-radius: 50px;
+} */
 
 header {
     display: flex;
@@ -60,4 +64,42 @@ button {
 
 button:hover {
     background-color: #CDA45E;
+}
+
+.container {
+    width: 100%;
+    height: 805px;
+    margin: 0px auto;
+    background-image: url("../img/hero-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    margin-top: 200px;
+    width: 50%;
+}
+
+.hero .hero-heading {
+    color:#FFFFFF;
+    font-size: 50px;
+    line-height: 65px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero .hero-desc {
+    color:#FFFFFF;
+    font-size: 23px;
+    line-height: 27px;
+    padding: 15px 0;
+}
+
+button {
+    border-radius: 50px;
+}
+
+.hero .cta-btn {
+    margin-right: 30px;
+    background: transparent;
 }

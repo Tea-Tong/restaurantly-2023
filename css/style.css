@@ -76,6 +76,7 @@ button:hover {
 .hero {
     margin-top: 200px;
     width: 50%;
+    padding: 0 100px;
 }
 
 .hero .hero-heading {
@@ -121,7 +122,7 @@ button {
 
 .abt-desc {
     width: 50%;
-    padding-left: 40px;
+    padding-left: 100px;
     color: #FFFFFF;
 }
 
@@ -141,4 +142,39 @@ button {
     color:#FFFFFF;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+}
+
+/* ----------------------------------------- */
+.whyUs {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #0C0B09;
+    color: #CDA45E;
+    /* padding: 0 50px; */
+}
+
+.whyUs-title {
+    padding-left: 100px;
+}
+
+.whyUs-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; 
+    display: grid;
+    column-gap: 20px;    
+    grid-template-columns: auto auto auto;
+    padding: 0 100px;
+}
+
+.whyUs-col {
+    background-color: #1A1814;
+    padding: 20px;
+    font-size: 30px;
+    /* width: 300px; */
+    /* height: 300px; */
 }

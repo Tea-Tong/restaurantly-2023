@@ -12,41 +12,47 @@
 </head>
 
 <body>
-  <div class="container">
-    <header class="navbarNav">
-      <div id="logo">
-        <h2 class="logo">RESTAURANTLY</h2>
-      </div>
-      <div id="nav__links">
-        <nav>
-          <ul class="nav__links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Specials</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Chefs</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Dropdown</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div id="book__table">
-        <a href="#" class="book__table"><button>BOOK A TABLE</button></a>
-      </div>
-            
-    </header>
+  <header class="navbarNav">
+    <div id="logo">
+      <h2 class="logo">RESTAURANTLY</h2>
+    </div>
+    <div id="nav__links">
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Specials</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Chefs</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Dropdown</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="book__table">
+      <a href="#" class="book__table"><button>BOOK A TABLE</button></a>
+    </div>
+          
+  </header>
+
+  <!-- <div class="container" style="background-image: url('img/hero-bg.jpg');"> -->
+    
     <!-- ---------- hero section ----------- -->
-    <section id="hero" class="hero">
-      <h1 class="hero-heading">Welcome to Restaurantly</h1>
-      <h3 class="hero-desc">Delivering great food for more than 18 years!</h3>
-      <div class="btn-box">
-        <a href="#" class="cta-btn menu-btn"><button>OUR MENU</button></a>
-        <a href="#" class="cta-btn book-btn"><button>BOOK A TABLE</button></a>
-      </div>          
+    <section id="hero" class="hero" style="background-image: url('img/hero-bg.jpg');">
+      <div class="hero-div">
+        <div>
+          <h1 class="hero-heading">Welcome to Restaurantly</h1>
+          <h3 class="hero-desc">Delivering great food for more than 18 years!</h3>
+          <div class="btn-box">
+            <a href="#" class="cta-btn menu-btn"><button>OUR MENU</button></a>
+            <a href="#" class="cta-btn book-btn"><button>BOOK A TABLE</button></a>
+          </div>
+        </div>          
+      </div>              
     </section>
-  </div>
+  <!-- </div> -->
   
   <!-- --------------- About -------------------- -->
   <section id="about" class="about" style="background-image: url('img/about-bg.jpg');">
@@ -104,8 +110,101 @@
           <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
         </div>
       </div>
-    </div>
-    
+    </div>    
+  </section>
+
+  <!-- ---------------- Menu -------------------- -->
+  <section id="menu">
+    <div class="menu">
+      <div class="menu-title">
+        <h6>MENU</h6>
+        <h1>Check Our Tasty Menu</h1>
+      </div>
+
+      <div class="menu-filters">
+        <ul id="menu-filters">
+          <li class="menu-items">All</li>
+          <li class="menu-items">Starters</li>
+          <li class="menu-items">Salads</li>
+          <li class="menu-items">Speciality</li>
+        </ul>        
+      </div>
+
+      <div class="menu-container">
+        <div class="menu-item">
+          <img src="img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Lobster Bisque</a><span>$5.95</span>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>            
+        </div>
+
+        <div class="menu-item">
+          <img src="img/menu/bread-barrel.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Bread Barrel</a><span>$6.95</span>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>            
+        </div>
+
+        <div class="menu-item">
+          <img src="img/menu/cake.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Crab Cake</a><span>$7.95</span>
+            <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+          </div>            
+        </div>
+
+        <div class="menu-item">
+          <img src="img/menu/caesar.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Caesar Selections</a><span>$8.95</span>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>            
+        </div>
+
+        <div class="menu-item">
+          <img src="img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Tuscan Grilled</a><span>$9.95</span>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>            
+        </div>
+
+        <div class="menu-item">
+          <img src="img/menu/mozzarella.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Mozzarella Stick</a><span>$4.95</span>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>            
+        </div>
+
+        <div class="menu-item">
+          <img src="img/menu/greek-salad.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Greek Salad</a><span>$9.95</span>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>            
+        </div>
+
+        <div class="menu-item">
+          <img src="img/menu/spinach-salad.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Spinach Salad</a><span>$9.95</span>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>            
+        </div>
+
+        <div class="menu-item">
+          <img src="img/menu/lobster-roll.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Lobster Roll</a><span>$12.95</span>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>            
+        </div>
+
+      </div>
+    </div>    
   </section>
 
 </body>

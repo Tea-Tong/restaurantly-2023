@@ -63,26 +63,32 @@ button:hover {
     background-color: #CDA45E;
 }
 
-.container {
-    width: 100%;
-    height: 805px;
-    margin: 0px auto;
-    background-image: url("../img/hero-bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* ------------------------------------- */
 
 .hero {
-    margin-top: 200px;
-    width: 50%;
+    width: 100%;
+    height: 605px;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    align-items: center;
+}
+
+.hero-div {
+    width: 100%;
+    height: 605px;
+    display: flex;
+    align-items: center;
     padding: 0 100px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .hero .hero-heading {
     color:#FFFFFF;
     font-size: 50px;
-    line-height: 65px;
+    /* line-height: 65px; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -97,9 +103,13 @@ button {
     border-radius: 50px;
 }
 
-.hero .cta-btn {
+.hero button {
     margin-right: 30px;
     background: transparent;
+}
+
+.hero button:hover {
+    background-color: #CDA45E;
 }
 
 /* ----------------------------------------- */
@@ -177,4 +187,57 @@ button {
     font-size: 30px;
     /* width: 300px; */
     /* height: 300px; */
+}
+
+/* -------------------------------------------- */
+.menu {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1814;
+    color: #CDA45E;
+}
+
+.menu-title {
+    padding-left: 100px;
+}
+
+.menu-filters ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#menu-filters {
+    list-style: none;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.menu-img {
+    border: 7px solid #484643;
+    border-radius: 50%;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.menu-container {
+    padding: 50px 100px;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-content {
+    padding-left: 20px;
 }

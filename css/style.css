@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-.navbarNav, li, a, button {
+.navbarNav li, a, button {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 100;
@@ -189,7 +189,7 @@ button {
     /* height: 300px; */
 }
 
-/* -------------------------------------------- */
+/* -------------------- menu ------------------------ */
 .menu {
     width: 100%;
     height: auto;
@@ -240,4 +240,77 @@ button {
 
 .menu-content {
     padding-left: 20px;
+}
+
+/* ------------------ specials --------------------- */
+.specials {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #0C0B09;
+    color: #FFFFFF;
+}
+
+.spec-title {
+    padding-left: 100px;
+}
+
+.spec-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 0;   
+    align-items: left; 
+}
+
+.spec-container .menu-btn {
+    /* margin-bottom: 10px; */
+    display: block;
+    cursor: pointer;
+    padding: 10px 60px 10px 10px;
+    border: none;
+    border-radius: 0%;
+    background-color: #0C0B09;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: 500;
+}
+
+.spec-container .menu-btn:hover {
+    color: #CDA45E;
+}
+
+.line {            
+    width: 3px;
+    height: 200px;
+    background-color: #CDA45E;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.spec-container .spec-content {
+    display: flex;
+    transition: opacity 0.5s ease-in-out;
+    width: 70%;
+}
+
+.spec-container .menu-image {
+    border-radius: 50%;
+    padding: 0;
+    width: 250px;
+    height: 250px;
+}
+
+.spec-container .menu-description {
+    margin-top: 10px;
 }

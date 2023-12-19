@@ -2,7 +2,9 @@
 
 .body{
     margin: 0;
+    padding: 0;
 }
+
 .navbarNav {
     width: 100%;
     box-sizing: border-box;
@@ -184,8 +186,13 @@ button {
     padding: 0 100px;
 }
 
+.whyUs-col:hover {
+    background-color: #CDA45E;
+}
+
 .whyUs-col {
     background-color: #1A1814;
+    color: white;
     padding: 20px;
     font-size: 30px;
     /* width: 300px; */
